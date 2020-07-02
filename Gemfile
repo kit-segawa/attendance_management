@@ -81,7 +81,7 @@ gem 'rails_admin'
 
 gem 'carrierwave'
 
-gem 'mini_magick','3.5.0'
+gem 'mini_magick','4.9.4'
 
 #gem 'rmagick' ERROR
 
