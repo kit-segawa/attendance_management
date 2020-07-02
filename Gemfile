@@ -75,8 +75,10 @@ gem 'spreadsheet'
 
 gem 'virtus'
 
+#login logout
 gem 'devise'
 
+#administrator
 gem 'rails_admin'
 
 gem 'carrierwave'
