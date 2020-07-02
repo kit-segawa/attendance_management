@@ -69,7 +69,7 @@ gem 'pg'
 
 gem 'twitter-bootstrap-rails'
 
-gem 'less-rails'
+gem 'less-rails',git: 'https://github.com/MustafaZain/less-rails'
 
 gem 'spreadsheet'
 
@@ -81,13 +81,13 @@ gem 'devise'
 #administrator
 gem 'rails_admin'
 
-gem 'carrierwave'
+#gem 'carrierwave'
 
-gem 'mini_magick','3.5.0'
+#gem 'mini_magick','3.5.0'
 
 #gem 'rmagick' ERROR
 
-gem 'settingslogic'
+#gem 'settingslogic'
 
 gem 'simple_form'
 
@@ -95,14 +95,14 @@ gem 'validates_email_format_of'
 
 gem 'kaminari'
 
-gem 'rb-readline'
+#gem 'rb-readline'
 
 #markdown
-gem 'redcarpet'
+#gem 'redcarpet'
 
 #pdf
-gem 'wkhtmltopdf-binary'
-gem 'wicked_pdf'
+#gem 'wkhtmltopdf-binary'
+#gem 'wicked_pdf'
 
 #japanese holiday
 gem 'business_time'

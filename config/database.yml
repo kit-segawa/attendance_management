@@ -12,11 +12,11 @@ default: &default
 development:
   <<: *default
   adapter: postgresql
-  encoding: true
+  encoding: utf8
   pool: 5
   username: postgres
   password: develop
-  database: Attendance_management
+  database: attendance_management
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
