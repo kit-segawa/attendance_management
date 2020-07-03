@@ -81,10 +81,13 @@ gem 'devise'
 #administrator
 gem 'rails_admin'
 
+#image_upload
 #gem 'carrierwave'
 
+#image_resize
 #gem 'mini_magick','3.5.0'
 
+#image_processing
 #gem 'rmagick' ERROR
 
 #gem 'settingslogic'
