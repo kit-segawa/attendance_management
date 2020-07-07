@@ -92,8 +92,6 @@ gem 'rails_admin'
 
 #gem 'settingslogic'
 
-#gem 'simple_form'
-
 gem 'validates_email_format_of'
 
 gem 'kaminari'
@@ -113,3 +111,5 @@ gem 'rails-i18n' ,'~> 5.1'
 #japanese holiday
 gem 'business_time'
 gem 'holiday_jp'
+
+gem 'rename'
