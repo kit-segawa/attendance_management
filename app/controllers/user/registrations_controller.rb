@@ -5,9 +5,9 @@ class User::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_account_update_params, only: [:update]
 
   # GET /resource/sign_up
-  # def new
-  #   super
-  # end
+   #def new
+   #  super
+   #end
 
   # POST /resource
   # def create
@@ -63,7 +63,7 @@ class User::RegistrationsController < Devise::RegistrationsController
   private 
   
   def sign_up_params
-    params.permit(:emp_num,:emp_name,:email,:password)
+    #params.permit(:emp_num,:emp_name,:email,:password)
   end
   
   def account_update_params

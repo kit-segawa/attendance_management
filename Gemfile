@@ -98,6 +98,9 @@ gem 'validates_email_format_of'
 
 gem 'kaminari'
 
+#weekday to japanese
+gem 'rails-i18n' ,'~> 5.1'
+
 #gem 'rb-readline'
 
 #markdown
