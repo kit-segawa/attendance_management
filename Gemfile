@@ -92,7 +92,7 @@ gem 'rails_admin'
 
 #gem 'settingslogic'
 
-gem 'simple_form'
+#gem 'simple_form'
 
 gem 'validates_email_format_of'
 
