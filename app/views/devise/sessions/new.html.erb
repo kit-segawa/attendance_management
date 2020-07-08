@@ -1,7 +1,6 @@
 <h2>勤怠管理システム</h2>
 <br>
-
-<div class="container-fluid">
+<div class="jumbotron">
   <!-- error of devise -->
 <%- flash.each do |error_type,message| -%>
   <%= content_tag :div, message, :id => "flash_#{error_type}" if message.is_a?(String) %>
@@ -23,14 +22,14 @@
     <%= f.text_field :emp_num,
                 required: true,
                 autofocus: true,
-                class: "form-control" %>
+                class: "form-control form-control-lg" %>
     </div>
     <div class="form-group">
     <%= f.label "パスワード" %>
     <%= f.password_field :password,
                 required: true,
                 input_html: { autocomplete: "current-password" },
-                class: "form-control" %>
+                class: "form-control form-control-lg" %>
     </div>
     
   </div>
